@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+                                       <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">sa<span>nd</span>eep</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li><a href="#home" class="nav__list active-link">Home</a></li>
+
+              <li><a href="#about" class="nav__link">About</a></li>
+
+
+              <li><a href="#services" class="nav__link">Services</a></li>
+
+
+              <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+
+              <li><a href="#contact" class="nav__link">contact</a></li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+              <i class="ui uil-times"></i>
+            </div>
+        </div>
+
+        <div class="nav__socials">
+          
+          <a href="www.twitter.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/sandeep-dhanni03/" target="_blank" class="nav__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a href="www.instagram.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://github.com/sandeepdhanni" target="_blank" class="nav__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+                                       <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to my World</span>
+            <h1 class="home__title">Hi!, I'am Sandeep. I am a <span>Full stack Java developer</span></h1>
+          </div>
+           <img src="assets\img\myimage.jpg" alt="" class="home__img">
+        </div>
+      </section>
+
+                                        <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets\img\Myphoto.jpeg" alt="" class="about__img">
+          <div class="about__container">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__description">Passionate Full-Stack Java Developer with a solid foundation in Java. Proficient in Java, Spring Boot, and
+              front-end technologies such as HTML, CSS, and JavaScript. A quick learner with a commitment to
+              producing high-quality code. I am eager to embark on a challenging career as a full-stack Java developer,
+              bringing a fresh perspective, strong problem-solving skills, and a passion for staying abreast of emerging
+              technologies.</p>
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+              <!-- <span class="tabs__btn" data-target="#awards">Award</span> -->
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#education">Education & certification</span>
+            </div>
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Front-end Technologies - </span> - HTML, CSS, javascript, Bootstrap, Typescript 
+                  </p>
+                  <p class="tabs__description">
+                    <span>Back-end Technologies -</span>- Java, Springboot,JSP Servlets, JDBC
+                  </p>
+                  <p class="tabs__description">
+                    <span>Database -</span>- MYSQL 
+                  </p>
+                  <p class="tabs__description">
+                    <span>Tools -</span>- Eclipse, VS Code, MYSQL Workbench 
+                  </p>
+                </div>
+              </div>
+
+             
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Subject Matter Expert</span>-Chegg India 
+                    <span>2023</span>
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>B.Tech in CSE </span>- St. Mary's Engineering Collage,Deshmukh
+                    <span>2018 - 2022</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Intermediate</span>- Narayana Junior Collage,Hyderabad
+                    <span>2016 - 2018</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Board of Secondary Education</span>-Samved School,Bangalore 
+                    <span>2016</span>
+                  </p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+                          <!-- SERVICES -->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Awesome Services</h2>
+          <p class="section__description">
+              I am proficient in both front-end and back-end technologies. I provide services which are given below:
+          </p>
+
+          <div class="services__container container grid">
+            <div class="services__item">
+              <i class="uil uil-database services__icon"></i>
+
+              <h3 class="services__title">Database Management</h3>
+              <p class="services__description">I have gained extensive experience in database management, which has been instrumental in creating robust and scalable web applications. I have a strong background in designing relational databases to meet the specific needs of various projects. I am proficient in writing complex SQL queries to retrieve and manipulate data from databases.</p>
+            </div>
+
+            <div class="services__item">
+              <i class="uil uil-browser services__icon"></i>
+
+              <h3 class="services__title">Web Developer</h3>
+              <p class="services__description"> I have a strong command of HTML and CSS, allowing me to create well-structured and visually appealing web pages. I leverage CSS frameworks like Bootstrap to streamline development and ensure cross-browser compatibility.I develop interactive and dynamic user interfaces that enhance user experience. Whether it's implementing client-side form validation, creating animated transitions, or handling asynchronous requests, I leverage JavaScript and TypeScript to add functionality to web applications.</p>
+            </div>
+
+            <div class="services__item">
+              <i class="uil uil-users-alt services__icon"></i>
+
+              <h3 class="services__title">Software Developer</h3>
+              <p class="services__description"> I am proficient in both frontend and backend development, with expertise in languages such as Java, JavaScript. From designing intuitive user interfaces using frameworks like Angular to implementing complex business logic and database interactions, I have the skills to build end-to-end software solutions. I specialize in developing responsive and scalable web applications that meet the needs of modern businesses.  I am proficient in designing and optimizing relational databases like MySQL. I use database management systems to store, retrieve, and manipulate data efficiently, ensuring data integrity and security in software applications.</p>
+            </div>
+
+            <div class="services__item">
+              <i class="uil uil-layer-group services__icon"></i>
+
+              <h3 class="services__title">Java Developer</h3>
+              <p class="services__description">I am a skilled Java developer with expertise in building robust web applications and services using a variety of technologies. Proficient in both frontend and backend development, I specialize in crafting end-to-end solutions that deliver exceptional user experiences and meet business requirements. With a strong foundation in Java programming and extensive hands-on experience with frameworks like Spring Boot, I am equipped to tackle complex software challenges and drive innovation in the digital landscape.Skilled in database interaction and management using JDBC for seamless integration with relational databases.x</p>
+            </div>
+          </div>
+      </section>
+
+                                       <!-- PORTFOLIO -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Projects</h2>
+        <p class="section__description">
+          In my recent projects, I've had the opportunity to work on various web development initiatives, contributing to the creation of user-centric and scalable solutions.Here are few projects :        </p>
+        <div class="portfolio__container container container grid">
+          <div class="portfolio__item">
+            <img src="assets\img\top-horiholi.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Calculator</h3>
+              <p class="portfolio__description">Designed and implemented a fully functional calculator web application using HTML, CSS, and JavaScript. focused on optimizing code efficiency and user interaction to deliver a polished and functional calculator application.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets\img\Ecommerce.png" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">E-Commerse Website</h3>
+              <p class="portfolio__description">created a comprehensive e-commerce website that offers a seamless shopping experience for users. Leveraging a combination of frontend and backend technologies, including HTML, CSS, JavaScript, Java, TypeScript, Angular, and Spring Boot, I have crafted a dynamic and feature-rich platform that caters to the diverse needs of online shoppers.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets\img\tic-tac-toe.webp" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Tic-Tac-Toe Game</h3>
+              <p class="portfolio__description">Developed a classic Tic-Tac-Toe game in Java, providing players with an interactive and enjoyable gaming experience.I leveraged object-oriented programming principles to create reusable components and facilitate code readability.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets\img\develop-web.gif" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Cafe Registration Website</h3>
+              <p class="portfolio__description">Developed a cafe registration website from scratch using HTML, CSS, Bootstrap, and JavaScript. The website serves as a platform for cafe patrons to register for events, reserve tables, and view upcoming specials.designed the user interface, implementing frontend functionalities, and ensuring cross-browser compatibility.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+                                        <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Hire Me</h2>
+
+            <p class="contact__description">
+              I am available for freelancer work. Connect with me via phone:
+              <a href="tel:+91 8688335861">+91 8688335861</a> or email: <a href="sandepdhanni@gmail.com">sandepdhanni@gmail.com</a>
+            </p>
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" name="name" placeholder="Your Name" class="contact__input" id="contact-name">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="email" name="email" placeholder="Your your e-mail ID" class="contact__input" id="contact-email">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text" name="subject" placeholder="Write a subject" class="contact__input" id="contact-subject">
+              </div>
+
+              <div class="contact__form-input">
+                 <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn">
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets\img\Myphoto.jpeg" alt="" class="contact__img">
+        </div>
+      </section>
+    </main>
+
+                                         <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="" class="footer__logo">s<span>a</span>ndeep</a>
+
+        <div class="footer__socials">
+
+          <a href="www.twitter.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/sandeep-dhanni03/" target="_blank" class="footer__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a href="www.instagram.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://github.com/sandeepdhanni" target="_blank" class="footer__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+
+          <p class="footer__copyright">&copy; 2024. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+                                   <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+                                    <!-- EMAIL JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+                                   <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
